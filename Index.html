@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Home</title>
+</head>
+
+<body class="bg-purple-300">
+    <hearder class="px-16 bg-purple-400 flex flex-warp items-center lg:py-0 py-2">
+    
+<div class="hidden lg:flex lg:items-center lg:w-auto w-full">
+   <!-- navigation bar -->
+    <nav>
+        <ul class="lg:flex item-center justify-between text-base pt-4 lg:pt-0">
+            <li>
+                <a href="Index.html" class="lg:p-4 py-3 px-0 block text-purple-900 font-semibold border-b-2 border-transparent 
+                hover:bg-purple-200">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="Applications.html" class="lg:p-4 py-3 px-0 block text-purple-900 font-semibold border-b-2 border-transparent 
+                hover:bg-purple-200">
+                    Applications
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+</hearder>
+    <!-- Introduction -->
+    <div class="">
+        <div class="flex justify-center p-6 border-b-4">
+          <div class="w-2/3">
+        <h1 class="text-4xl font-bold text-center text-pink-900">
+            CyberSecurity Camp for Girls
+        </h1>
+        <br>
+        <p class="text-center font-semibold text-purple-900">
+            Dr. Dalal Alharthi initiative to train girls in CyberSecurity field. Here is a summary 
+            about each lecture.
+        <br>
+            It supported by Ministry of Communications and Information Technology, Attaa Digital and Classera.
+        </p>
+        <p class="text-center font-bold text-pink-900">
+        Dr. Dalal connction:  <a href="https://www.linkedin.com/in/dalalharthi/" class="text-purple-900 hover:text-pink-500 font-normal text-sm btn btn-success">
+            LinkedIn
+        </a>, <a href="https://twitter.com/dalalharthi?lang=en" class="text-purple-900 hover:text-pink-500 font-normal text-sm btn btn-success">
+            Twitter
+        </a>
+        </p>
+    </div>
+    </div></div>
+    <!-- contener -->
+
+    <div class="px-10 mt-3">
+        <div class="flex flex-wrap">
+
+            <div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+        <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+        <h1 class="font-bold text-indigo-100">
+            Introduction to CyberSecurity and Linux Command   </br>
+            <span id="dots1"></span><span id="more1">
+            <br>
+                <p class="text-indigo-300 font-semibold">
+                    What is CyberSecurity ?  </p> 
+                    <p class="text-purple-300 font-semibold">Its an assessing threats and reducing risks</p>
+                    <br>
+                  <p class="text-indigo-300 font-semibold">
+                 What is CIA ? </p> 
+                 <p class="text-purple-300 font-semibold">Confidential Integrity Availability</p>
+           
+               <div class="text-purple-300 font-semibold">
+               
+                 <li>  Confidential = control access to the information </li>
+                 <li>  Integrity =  protect data form unauthorized changes</li>
+                 <li>  Availability =  the authoriz users have access to resources and system</li>
+                 
+           </div>
+           <br>
+           <p class="text-indigo-300 font-semibold">
+               What is Social Engineering ?</P>
+               <P class="text-purple-300 font-semibold">
+                 Using psychological manipulation of people to give away sinsetive information or 
+                 security information and its happen in many different way
+               and the big responsibility on user to make sure to whom give the informations
+           </p>
+           <br>
+               <p class="text-indigo-300 font-semibold">
+                   What is DoS and DDoS ?</p> 
+                   <p class="text-purple-300 font-semibold">Its denial-of-service attack, prevent the user 
+                       from server services by interrapt the sent massegs to server and response to the user as server
+               </p>
+           <br>
+               <p class="text-indigo-300 font-semibold">
+                   What the difference between Dos and DDoS?
+                  </p> <p class="text-purple-100 font-semibold">
+                       <li>  DoS --> attacker flood the server with TCP and UDP packet(single computer and single server). 
+                           To interrapt service and to make the respond slower </li>
+                       <li>  DDoS --> attacker attak the system from different locations 
+                           (multiple system target single system) </li>
+               </p>
+           <br>
+               <p class="text-indigo-300 font-semibold">
+                   What is Ransomware? </p>
+                   <p class="text-purple-300 font-semibold">Attack the logs device and encrypt its data or 
+                       lock the operating system and blackmail the owner of the institution or company in exchange 
+                       for returning the data or the system
+               </p>
+           <br>
+               <p class="text-indigo-300 font-semibold">
+                   What is Cryptography? </p>
+                   <p class="text-purple-300 font-semibold">
+                    Its a way to protect the data while moving between the sender and the receiver 
+               </p>           
+            </span>
+
+            <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn1" 
+            onclick="read_more_less1()">
+                read more >>
+            </a>
+        </h1>
+    </div></div>
+
+    <div class="w-full sm:w-1/2 lg:w-1/2">
+   <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700 mt-3" >
+        <h1 class="font-bold text-indigo-100">
+            Cloud Security
+         <br>
+        <span id="dots2"></span><span id="more2">
+<br>
+        <p class="text-indigo-300 font-semibold">
+            What we mean by cloud computing? </p>
+            <p class="text-purple-300 font-semibold">
+            The ability of availability of computer resources and data storages without direct 
+            active management by the user
+            </p><br>
+    
+            <p class="text-indigo-300 font-semibold">
+                Examples of cloud computing? </p>
+                <p class="text-purple-300 font-semibold"> - AWS, Azure and Google cloud
+            </p><br>
+    
+            <p class="text-pink-200 font-normal">
+               * There is an applications that save and encrypt passwords such as: KeepPass and LastPass *
+            </p><br>
+    
+            <p class="list-decimal text-indigo-300 font-semibold">
+             Cloud Computing type:
+            </p><p>
+                <li>  Public cloud --> available on the Internet for everyone, easy and fast </li>
+                <li>  Private cloud --> make authorized access for user and internal network
+                    its require physical data center staff for maintenance
+                </li>
+                <li>  Hybrid cloud -->  its both public and private cloud. also can make authoriz access</li>
+                
+            </p><br>
+    
+            <p class="list-decimal text-indigo-300 font-semibold">
+             Cloud computing services:
+            </p><p>
+             <li>  Saas (Software as a service) --> it is a way of delivering applications over 
+                 the Internet without the need of download software or hardware management
+                 However, can save your work and update it  </li>
+             <li>  Paas (Platform as a service) -->  platform that provide basics infrastructure, it is 
+                 complete development and deployment environment</li>
+             <li>  laas (Infrastructure as a Service) -->  infrastructure that provides a management service 
+                 for server and virtual applications</li>
+             
+            </p><br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn2" 
+    onclick="read_more_less2()">
+        read more >>
+    </a>
+</h1>
+    </div></div>
+
+    <div class="w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700 mt-3" >
+            <h1 class="font-bold text-indigo-100">
+                Python <br>
+                <span id="dots3"></span><span id="more3">
+                    <br>
+                    <p class="text-indigo-300 font-semibold">
+                        What is python?
+                    </p>
+                    <p class="text-purple-300 font-semibold">
+                        Is an interpreted, high-level and general-purpose programming language. 
+                        In 2019 python comes in second top 10 of programming language in the world
+                    </p>
+                    <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn3" 
+    onclick="read_more_less3()">
+        read more >>
+    </a>
+</h1>  
+        </div></div>
+
+        <div class="w-full sm:w-1/2 lg:w-1/2">
+        <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700 mt-3" >
+                <h1 class="font-bold text-indigo-100">
+                   Network Security <br>
+                   <span id="dots4"></span><span id="more4">
+                       <br>
+                       <p class="text-indigo-300 font-semibold">
+                        What is IP?</p>
+                        <p class="text-purple-300 font-semibold">
+                            Internet protocol, is a unique identifier for every machine using the internet
+                        </p>
+                        <br>
+                       <p class="text-indigo-300 font-semibold">
+                        How its work? </p>
+                        <p class="text-purple-300 font-semibold">
+                            When you access the Internet your IP address will be as key for you to access website, 
+                            send/receive mail …etc
+                        </p>
+                        <br>
+                       <p class="text-indigo-300 font-semibold">
+                        It contains two part: Network ID and Host ID </p>
+                        <p>
+                            <li>The network ID identifies the network segment to which the host belongs </li>
+                            <li>The host ID identifies an individual host on some specific network segment. 
+                                A host can communicate directly only with other hosts on the same network segment</li>
+                        </p>
+                        <br>
+                       <p class="text-indigo-300 font-semibold">
+                        Component of IP:
+                       </p>
+                       <p class="text-purple-300 font-semibold">
+                        Combination of numbers called bit. IP contain 32bit, 32bit divided into 4 sections/parts 
+                        separated by single dot and these four sections can take any number in this range (0-255)
+                       </p>
+                       <p>
+                        <img src="address.png" width="460" height="345">
+                       </p>
+                       <br>
+                       <p class="text-indigo-300 font-semibold">
+                        What is TCP/IP ?
+                       </p>
+                       <p class="text-purple-300 font-semibold">
+                        It is multiple protocols help to transfer packet from sender to receiver. 
+                        TCP divided the packet into small pieces then send it one by one after that collect 
+                        it together to make sure its complete as one packet. IP it is responsible about address 
+                        destination 
+                       </p>
+                       <br>
+                       <p class="text-indigo-300 font-semibold">
+                        What is UDP and TCP ?
+                       </p>
+                       <p class="text-purple-300 font-semibold">
+                        UDP (User Datagram Protocol), TCP (Transmission Connection Protocol) 
+                        both responsible for connection between sender and receiver
+                       </p>
+                       <p>
+                        <li>TPC --> check if the sender available to receive any packet then after the respond, 
+                            send the packet in order and it will be received in the same order </li>
+                        <li>UDP --> send the packet to receiver without any alert to check-up and 
+                            the packet will received in unordered </li>
+                    </p>
+                    <br>
+                    <p class="text-indigo-300 font-semibold">
+                        When to use UDP or TCP ?
+                    </p>
+                    <p class="text-purple-300 font-semibold">
+                        UDP is faster than TCP but TCP more reliable then UDP. If you need speed more than reliability, 
+                        you should use UDP instead of TCP. TCP has provisions for data packet sequencing, 
+                        acknowledgements, error detection, and correction
+                    </p>
+                    <br>
+                    <p class="text-indigo-300 font-semibold">
+                       what is OSI layers?
+                    </p>
+                    <p>
+                        <img src="OSI.jpg" width="460" height="345">
+                    </p>
+                    <br>
+                    <p class="text-indigo-300 font-semibold">
+                        What is OSI model and the benefit of using OSI model ?
+                    </p>
+                    <p class="text-purple-300 font-semibold">
+                        OSI (Open System Interconnection), is a conceptual framework used to describe 
+                        the functions of a networking system. How the data work in each layer and between them
+                    </p>
+                    <br>
+                    <p class="text-indigo-300 font-semibold">
+                        What is MAC address?
+                    </p>
+                    <p class="text-purple-300 font-semibold">
+                        It is like a finger print but its for devices, each device has MAC address no one can change it.
+                        se MAC address to identify the device into network. Consist of 6 part each part takes 
+                        two number in this range (0-9 and A-F). This range called “ hexadecimal system” 
+                    </p>
+                    <br>
+                    <p class="text-indigo-300 font-semibold">
+                        What DNS ?
+                    </p>
+                    <p class="text-purple-300 font-semibold">
+                        DNS (Domain Name System), is to translate domain names into IP addresses, which computers 
+                        can understand
+                    </p>
+                    <br>
+                    <p class="text-indigo-300 font-semibold">
+                        What is PTF?
+                    </p>
+                    <p class="text-purple-300 font-semibold">
+                        PTF (File Transfer Protocol), its protocol used to transfer file from user to server inside 
+                        the network or transfer files between devices that support the protocol which translate the
+                         file into format of operating system
+                    </p>
+                    <p>
+                        <img src="FFt.gif" width="460" height="345">
+                       </p>
+                    <br>
+                    <p class="text-indigo-300 font-semibold">
+                        What is the different between switch, router and hub?
+                    </p>
+                    <p>
+                        <li>Hub --> cfrom my study for CCNA certificate, the hub is old and rare to use these days. 
+                            Hub has many problems such as: when receive packet hub send this packet through all the port
+                             even if the port it is destination or not. This way will make the unnecessary port busy for 
+                             nothing </li>
+                        <li>Switch --> device in a computer network that connects other devices together. Using cables 
+                            to enable communication between different networked devices. If small company use switch 
+                            and connected directly with internet </li>
+                        <li>Router --> use it to connect branches in different locations together such as: banks and 
+                            hospitals. Can be used to internet connection</li>
+                    </p>
+                    <br>
+                    <p class="text-indigo-300 font-semibold">
+                    What is RACI ?
+                </p>
+                <p class="text-purple-300 font-semibold">
+                    RACI (Responsibility assignment matrix), it’s a matrix to distribute the task between the team work
+                     and clarifies priority of work. The RACI contributes to arranging and organizing the project's 
+                     progress
+                </p>
+                <p>
+                    <li>R = Responsible </li>
+                    <li>A = Accountable </li>
+                    <li>C = Consulted </li>
+                    <li>I = Informed </li>
+                </p>
+                <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn4" 
+    onclick="read_more_less4()">
+        read more >>
+    </a>
+                </h1>  
+            </div></div>
+
+            <div class="w-full sm:w-1/2 lg:w-1/2 pl-8">
+            <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700 mt-3" >
+                <h1 class="font-bold text-indigo-100">
+                    Incident Response <br>
+                    <span id="dots5"></span><span id="more5">
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is sandbox?
+                         </p>
+                         <p class="text-purple-300 font-semibold">
+                            sandbox is a testing environment that isolates untested code changes and outright 
+                            experimentation from the production environment or repository
+                         </p>
+                         <br>
+                         <p class="text-indigo-300 font-semibold">
+                            What is CI\DC?
+                        </p>
+                         <p class="text-purple-300 font-semibold">
+                            CI\CD (Continuous Integration and Continuous Delivery Pipeline), for example if you 
+                            have an application for social media and you update it then occurring some errors, 
+                            after few days appear new update for the same application fix all issues. This is CI\CD 
+                            in simple way
+                         </p>
+                         <br>
+                         <p class="text-indigo-300 font-semibold">
+                            What is DMZ?
+                          </p>
+                         <p class="text-purple-300 font-semibold">
+                            DMZ (DeMilitrarized Zone), is a network physical or logical used to connect hosts 
+                            that provide an interface to an untrusted external network [usually the internet] while
+                             keeping the internal, private network [usually the corporate network] separated and 
+                             isolated form the external network. Its not secure 100% and you can determine authorize 
+                             access to this network
+                         </p>
+                         <br>
+                         <p class="text-indigo-300 font-semibold">
+                            What is VPN?                          </p>
+                         <p class="text-purple-300 font-semibold">
+                            VPN (Virtual Private Network), its private network can access public network and interact 
+                            with it but you need authorize access to this network
+                         </p>
+                         <br>
+                         <p class="text-indigo-300 font-semibold">
+                            What is IR?
+                         </p>
+                         <p class="text-purple-300 font-semibold">
+                            IR (Incident Response), it is a term describing the activities of an organization to identify, 
+                            analyze, and correct hazards to prevent a future recurrence. The security incident response team is 
+                            called in when attack response programs fail such as: System firewalls, Intrusion prevention system 
+                            and Network security firewalls
+                         </p>
+                         <br>
+                         <p class="text-indigo-300 font-semibold">
+                            What is the role of security incident response team?
+                         </p>
+                         <p>
+                            <li>Preparation --> preparing to start respond to the threat</li>
+                            <li>Detection and analysis --> determine the threat and analyze the necessary 
+                                data in order to take the necessary action and reduce the risk</li>
+                            <li>Containment, eradication and recovery --> contain the threat in a specific network 
+                                and the rest of the networks are locked to protect it, then it is eliminated and 
+                                then we make sure that the affected network is recovered </li>
+                            <li>Post incident --> ensure the safety of the network from any threat and check all 
+                                the ports. Also, it is possible to add more protection and then open the network 
+                                again to the rest of the networks </li>
+                        </p>
+                        <br>
+                        </span>
+                        <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn5" 
+                        onclick="read_more_less5()">
+                            read more >>
+                        </a>
+                </h1>  
+            </div></div>
+        
+            <div class="w-full sm:w-1/2 lg:w-1/2">
+            <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700 mt-3" >
+                <h1 class="font-bold text-indigo-100">
+                    Digital Forensics<br>
+                    <span id="dots6"></span><span id="more6">
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is captcha?
+                         </p>
+                         <p class="text-purple-300 font-semibold">
+                            To verify the user is a human for example: I am not report, write the word or number,
+                             match the picture with the word
+                         </p>
+                         <br>
+                         <p class="text-indigo-300 font-semibold">
+                            What are Digital Forensics?
+                         </p>
+                         <p class="text-purple-300 font-semibold">
+                            Is carried out when there is an electronic trespass on the property of others without 
+                            authorization and for the purpose of breaching privacy or sabotage (harm others)
+                         </p>
+                         <br>
+                         <p class="text-indigo-300 font-semibold">
+                            When you start investigation in Digital Forensics must be attention to:
+                         </p>
+                         <p>
+                             <li>Document and write down step by step of investigation</li>
+                             <li>Be careful with evidence and ensure is safe</li>
+                         </p>
+                         <br>
+                         <p class="text-pink-200 font-normal">
+                            * To know your interest and passion for digital forensic investigation, see the Saudi 
+                            Cybersecurity Authority and NICE (National Initiative for Cybersecurity Education) *
+                         </p>
+                         <br>
+                        </span>
+                        <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn6" 
+                        onclick="read_more_less6()">
+                            read more >>
+                        </a>
+                </h1>  
+            </div></div>
+        
+            <div class="w-full sm:w-1/2 lg:w-1/2 pl-8">
+            <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700 mt-3" >
+                <h1 class="font-bold text-indigo-100">
+                   SIEMs      <br>
+                   <span id="dots7"></span><span id="more7">
+                       <br>
+                       <p class="text-indigo-300 font-semibold">
+                        What is SIEMs?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            It is a system for monitoring data traffic in the network to find out if there 
+                            is suspicious movement
+                        </p>
+                        <br> 
+                        <p class="text-indigo-300 font-semibold">
+                            What is Raw Log Data?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            know the data type that is moving in the network such as: TCP, FTP, UDP …etc
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is Normalize Raw Log Data?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            Know the events, destination and port destination 
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is SPL?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            SPL (Search Processing Languages), language containing many commands, functions, 
+                            arguments, …etc which are written to get the desired results from the datasets in Splunk
+                        </p>
+                        <br>
+                    </span>
+                    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn7" 
+                    onclick="read_more_less7()">
+                        read more >>
+                    </a>     
+                </h1>  
+            </div></div>
+        
+            <div class="w-full sm:w-1/2 lg:w-1/2">
+            <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700 mt-3" >
+                <h1 class="font-bold text-indigo-100">
+                   CyberSecurity Policies    <br>
+                   <span id="dots8"></span><span id="more8">
+                       <br>
+                       <p class="text-indigo-300 font-semibold">
+                        What is UF?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            Splunk UF (Universal Forwarder), we use it to forward the data to Splunk enterprise
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is Cybersecurity Strategy?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            It’s a long-term plan for execute multiple tasks to achieve goals or specific goal. 
+                            The purpose is to raising the efficiency and ability of the cybersecurity department 
+                            to protect against cyber-attacks and threats
+                        </p>
+                        <br>
+                    </span>
+                    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn8" 
+                    onclick="read_more_less8()">
+                        read more >>
+                    </a>        
+                </h1>  
+            </div></div>
+
+            <div class="w-full sm:w-1/2 lg:w-1/2 pl-8">
+            <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700 mt-3" >
+                <h1 class="font-bold text-indigo-100">
+                    Ethical Hacking, Penetration Testing <br>
+                    <span id="dots9"></span><span id="more9">
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is Scanning?
+                         </p>
+                         <p class="text-purple-300 font-semibold">
+                            Determine the open port in the remote host
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is Enumeration?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            Procedure to show large amount of information about specific device such as: IP address, 
+                            MAC address, operating system …etc
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is Nmap?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            An open source used to discover hosts and services on computer network and if there is 
+                            an open port
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is Nmap Aggressive Detection Mode?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            Gives a valuable information about the host also, do more investigation about the network 
+                            and discover any suspicious by using command such as:
+                        </p>
+                        <p>
+                            <li>-A --> activate aggressive detection</li>
+                            <li>-O --> aggressive mode enables operating system detection</li>
+                            <li>-sV --> version detection</li>
+                            <li>-sC --> script scanning</li>
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is OWASP?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            OWASP (Open Web Application Security Project), is a list of web application security 
+                            vulnerabilities/threat
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is the top 10 OWASP?
+                        </p>
+                        <p>
+                            <li>Injection --> hacker spoofing the application by typing codes or programming 
+                                commands</li>
+                                <li>Broken Authentication --> when the admin user hacked</li>
+                                <li>Sensitive Data Exposure --> unsafe data, weak encryption or not encrypted at all</li>
+                                <li>XML External Entities --> when user download malicious XML file</li>
+                                <li>Broking Access Control --> when hacker reach to unauthorized resources</li>
+                                <li>Security Misconfiguration --> using default password or a default script</li>
+                                <li>Cross Site Scripting (XXS) --> when enter JavaScript in website</li>
+                                <li>Insecure Deserialization --> hacker exploit the runtime when application convert 
+                                    the byte stream into an object</li>
+                                <li>Components with Known Vulnerabilities --> for example using unsecure library</li>
+                                <li>Insufficient Logging/Monitoring --> if the hacker installs a cryptominer on the 
+                                    server, the CPU load for that process will drastically increases. Also, if the 
+                                    hacker start downloads a lot of data from the server it will show up as unusual 
+                                    amount of outgoing network traffic</li>
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            Penetration Testing Report should include :
+                        </p>
+                        <p>
+                            <li>Summary Executive</li>
+                            <li>Approach Testing --> planning, discovery, attack (what tools or commands used) + 
+                                screenshot and reporting/documenting</li>
+                            <li>What is the result from the attack, security vulnerabilities that were discovered 
+                                with security or priority level + screenshot</li>
+                            <li>Recommendations and solutions to fill security gaps and raise the level of 
+                                cybersecurity in the entity (mentioned the sources) </li>
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is netcat?            
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            Is a general-purpose command-line tool for reading, writing, redirecting, 
+                            and encrypting data across a network using TCP or UDP
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is UFW?  
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            UFW (Uncomplicated Firewall), is a program for managing a net-filter firewall
+                        </p>
+                        <br>
+                    </span>
+                    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn9" 
+                    onclick="read_more_less9()">
+                        read more >>
+                    </a>        
+                </h1>  
+            </div></div>
+
+            <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700 mt-3" >
+                    <h1 class="font-bold text-indigo-100">
+                        Cryptography, CompTIA Security+    <br>
+                       <span id="dots10"></span><span id="more10">
+                           <br>
+                           <p class="text-indigo-300 font-semibold">
+                            What is Cryptography?
+                         </p>
+                         <p class="text-purple-300 font-semibold">
+                            It’s a process to encrypt plain-text to be unreadable only if the receiver have the 
+                            ability to decrypt the plain-text to cipher-text or have a special key (private key)
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is PAIN ?
+                        </p>
+                        <p>
+                            <li>Privacy --> by encrypt the text</li>
+                            <li>Authentication --> by verify the access authentication</li>
+                            <li>Integrity --> by hashing</li>
+                            <li>Non-repudiation --> by ensure that neither side can be back out of 
+                                transaction by claiming it never took place</li>
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is a Plain Text?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            It’s a normal and readable sentence of words. It is the message its self
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is Cipher Text?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            when using cryptography on text you must make this text save by encrypt it into 
+                            unreadable text, this text called cipher text
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            How Cryptography work?
+                        </p>
+                        <br>
+                        <p>
+                            <img src="cryp.png" width="460" height="345">
+                        </p>
+                        <br>
+                        <p class="text-purple-300 font-semibold">
+                            Based on the image, when the message has been encrypted by any way the user used. 
+                            The message now is saved and no one can read it, otherwise you need to decrypt the
+                             text
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is Symmetric and Asymmetric key?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            When using cryptography there are two categories: Symmetric (private key) and
+                             Asymmetric (public key)
+                        </p>
+                        <br>
+                        <p>
+                        <img src="symm.png" width="460" height="345">
+                        </p>
+                        <br>
+                        <p>
+                            <li>Using the same key --> share the private key between sender and receiver
+                                 for both process encryption and decryption</li>
+                        </p>
+                        <br>
+                        <p>
+                            <img src="Asymm.png" width="460" height="345"> 
+                        </p>
+                        <br>
+                        <p>
+                            <li>Using different key --> use public key for encryption in sender side and 
+                                private key for decryption in receiver side so, the text will be encrypted 
+                                through transport only</li>
+                        </p>
+                        <br>
+                        <p class="text-indigo-300 font-semibold">
+                            What is Hash signature?
+                        </p>
+                        <p class="text-purple-300 font-semibold">
+                            Is converting any text no matter how long it is into fix size text contain array 
+                            of numbers and letters through an algorithm. There is something called 
+                            “ Block Chain” which is several blocks, the first block called “Genesis Block” 
+                            contain transaction when combined produce unique hash. When create a second block 
+                            will combine the old hash in first block with second block hash to create a new 
+                            hash. This process keeps going on
+                        </p>
+                        <br>
+                        <p class="text-pink-200 font-normal">
+                            * Each hash must be : unique and secure
+                        </p>
+                        <p class="text-pink-200 font-normal">
+                            *Each block chain will be : secure, immutable and transparent network
+                        </p>
+                        <br>
+                        <p>
+                            <img src="hashsign.png" width="460" height="345">
+                        </p>
+                        <br>
+                        <p>
+                            <li>Input represent --> normal text /  readable text</li>
+                            <li>Hash Function represent --> algorithm that used </li>
+                            <li>Output represent --> hash value</li>
+                        </p>
+                        <br>
+                    </span>
+                    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn10" 
+                    onclick="read_more_less10()">
+                        read more >>
+                    </a>        
+                </h1>  
+            </div></div>
+
+</div>
+</div>
+</body>
+</html>
+
+<script>
+    function read_more_less1(){
+        var dots1 = document.getElementById('dots1');
+        var moretext1 = document.getElementById('more1');
+        var mybtn1 = document.getElementById('mybtn1');
+
+        if(dots1.style.display === 'none'){
+            dots1.style.display = 'inline';
+            moretext1.style.display = 'none';
+            mybtn1.innerHTML = "read more >>";
+        } else {
+            dots1.style.display = 'none';
+            moretext1.style.display = 'inline';
+            mybtn1.innerHTML = "<< read less";
+        }
+    }
+    function read_more_less2(){
+        var dots2 = document.getElementById('dots2');
+        var moretext2 = document.getElementById('more2');
+        var mybtn2 = document.getElementById('mybtn2');
+
+        if(dots2.style.display === 'none'){
+            dots2.style.display = 'inline';
+            moretext2.style.display = 'none';
+            mybtn2.innerHTML = "read more >>";
+        } else{
+            dots2.style.display = 'none';
+            moretext2.style.display = 'inline';
+            mybtn2.innerHTML = "<< read less";
+        }
+    }
+    function read_more_less3(){
+        var dots3 = document.getElementById('dots3');
+        var moretext3 = document.getElementById('more3');
+        var mybtn3 = document.getElementById('mybtn3');
+
+        if(dots3.style.display === 'none'){
+            dots3.style.display = 'inline';
+            moretext3.style.display = 'none';
+            mybtn3.innerHTML = "read more >>";
+        } else{
+            dots3.style.display = 'none';
+            moretext3.style.display = 'inline';
+            mybtn3.innerHTML = "<< read less";
+        }
+    }
+    function read_more_less4(){
+        var dots4 = document.getElementById('dots4');
+        var moretext4 = document.getElementById('more4');
+        var mybtn4 = document.getElementById('mybtn4');
+
+        if(dots4.style.display === 'none'){
+            dots4.style.display = 'inline';
+            moretext4.style.display = 'none';
+            mybtn4.innerHTML = "read more >>";
+        } else{
+            dots4.style.display = 'none';
+            moretext4.style.display = 'inline';
+            mybtn4.innerHTML = "<< read less";
+        }
+    }
+    function read_more_less5(){
+        var dots5 = document.getElementById('dots5');
+        var moretext5 = document.getElementById('more5');
+        var mybtn5 = document.getElementById('mybtn5');
+
+        if(dots5.style.display === 'none'){
+            dots5.style.display = 'inline';
+            moretext5.style.display = 'none';
+            mybtn5.innerHTML = "read more >>";
+        } else{
+            dots5.style.display = 'none';
+            moretext5.style.display = 'inline';
+            mybtn5.innerHTML = "<< read less";
+        }
+    }
+    function read_more_less6(){
+        var dots6 = document.getElementById('dots6');
+        var moretext6 = document.getElementById('more6');
+        var mybtn6 = document.getElementById('mybtn6');
+
+        if(dots6.style.display === 'none'){
+            dots6.style.display = 'inline';
+            moretext6.style.display = 'none';
+            mybtn6.innerHTML = "read more >>";
+        } else{
+            dots6.style.display = 'none';
+            moretext6.style.display = 'inline';
+            mybtn6.innerHTML = "<< read less";
+        }
+    }
+    function read_more_less7(){
+        var dots7 = document.getElementById('dots7');
+        var moretext7 = document.getElementById('more7');
+        var mybtn7 = document.getElementById('mybtn7');
+
+        if(dots7.style.display === 'none'){
+            dots7.style.display = 'inline';
+            moretext7.style.display = 'none';
+            mybtn7.innerHTML = "read more >>";
+        } else{
+            dots7.style.display = 'none';
+            moretext7.style.display = 'inline';
+            mybtn7.innerHTML = "<< read less";
+        }
+    }
+    function read_more_less8(){
+        var dots8 = document.getElementById('dots8');
+        var moretext8 = document.getElementById('more8');
+        var mybtn8 = document.getElementById('mybtn8');
+
+        if(dots8.style.display === 'none'){
+            dots8.style.display = 'inline';
+            moretext8.style.display = 'none';
+            mybtn8.innerHTML = "read more >>";
+        } else{
+            dots8.style.display = 'none';
+            moretext8.style.display = 'inline';
+            mybtn8.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less9(){
+        var dots9 = document.getElementById('dots9');
+        var moretext9 = document.getElementById('more9');
+        var mybtn9 = document.getElementById('mybtn9');
+
+        if(dots9.style.display === 'none'){
+            dots9.style.display = 'inline';
+            moretext9.style.display = 'none';
+            mybtn9.innerHTML = "read more >>";
+        } else{
+            dots9.style.display = 'none';
+            moretext9.style.display = 'inline';
+            mybtn9.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less10(){
+        var dots10 = document.getElementById('dots10');
+        var moretext10 = document.getElementById('more10');
+        var mybtn10 = document.getElementById('mybtn10');
+
+        if(dots10.style.display === 'none'){
+            dots10.style.display = 'inline';
+            moretext10.style.display = 'none';
+            mybtn10.innerHTML = "read more >>";
+        } else{
+            dots10.style.display = 'none';
+            moretext10.style.display = 'inline';
+            mybtn10.innerHTML = "<< read less";
+        }
+    }
+
+</script>

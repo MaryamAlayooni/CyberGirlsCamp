@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applications</title> <link href="http://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="bg-purple-300">
+    <hearder class="px-16 bg-purple-400 flex flex-warp items-center lg:py-0 py-2">
+    
+<div class="hidden lg:flex lg:items-center lg:w-auto w-full">
+   <!-- navigation bar -->
+    <nav>
+        <ul class="lg:flex item-center justify-between text-base pt-4 lg:pt-0">
+            <li>
+                <a href="Index.html" class="lg:p-4 py-3 px-0 block text-purple-900 font-semibold border-b-2 border-transparent 
+                hover:bg-purple-200">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="Applications.html" class="lg:p-4 py-3 px-0 block text-purple-900 font-semibold border-b-2 border-transparent 
+                hover:bg-purple-200">
+                    Applications
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+</hearder>
+<!-- Introduction -->
+<div class="">
+    <div class="flex justify-center p-6 border-b-4">
+      <div class="w-2/3">
+    <h1 class="text-4xl font-bold text-center text-pink-900">
+        CyberSecurity Camp for Girls
+    </h1>
+    <br>
+    <p class="text-center font-semibold text-purple-900">
+        Dr. Dalal Alharthi initiative to train girls in CyberSecurity field. Here is a summary about 
+        each lecture.
+    <br>
+        It supported by Ministry of Communications and Information Technology, Attaa Digital and Classera.
+</p>
+<p class="text-center font-bold text-pink-900">
+Dr. Dalal connction:  <a href="https://www.linkedin.com/in/dalalharthi/" class="text-purple-900 hover:text-pink-500 font-normal text-sm btn btn-success">
+    LinkedIn
+</a>, <a href="https://twitter.com/dalalharthi?lang=en" class="text-purple-900 hover:text-pink-500 font-normal text-sm btn btn-success">
+    Twitter
+</a>
+</p>
+
+</div>
+</div></div>
+<!-- contener -->
+<div class="px-10 mt-3">
+    <div class="flex flex-wrap">
+
+        <div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        Linux commands
+    </br>
+        <span id="dots1"></span><span id="more1">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            The most common commands used:
+        </p>
+        <p>
+            <li>pwd --> current path</li>
+            <li>ls --> list of file in the current path</li>
+            <li>touch --> to create a blank new file</li>
+            <li>nano --> edit file</li>
+            <li>clear --> clean the space in the command prompt/terminal </li>
+            <li>cd --> change the path</li>
+            <li>cp --> copy file</li>
+            <li>mv --> move file</li>
+            <li>midkr --> to make a new directory</li>
+            <li>rmdir --> delete a directory, only allows you to delete empty directories</li>
+            <li>rm --> to delete directories and the contents within them</li>
+            <li>gerp --> search through all the text in a given file</li>
+            <li>sudo --> to perform tasks that require administrative or root permissions</li>
+            <li>chmod --> used to change the read, write, and execute permissions of files and directories</li>
+            <li>ping --> check the connectivity status to a server</li>
+            <li>history --> to review the commands you’ve entered before</li>
+            <li>echo --> move some data into a file</li>
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn1" 
+    onclick="read_more_less1()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+
+<div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        EC2 in AWS (Cloud Security) </br>
+        <span id="dots2"></span><span id="more2">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            What is EC2 ?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            EC2 (Amazon Elastic Compute Cloud), is a core component of AWS (Amazon Web Services). It allows 
+            users to rent virtual computers to run computer applications, as a virtual private serverS
+        </p>
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            What is the benift of using CE2 in AWS? Why businesses use it?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            Easy to use with complete control, ability to select any platform less expensive than buy 
+            physical server and secure
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn2" 
+    onclick="read_more_less2()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+    
+<div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        Python </br>
+        <span id="dots3"></span><span id="more3">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            When we can use Python?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            Is often used as a support language for software developers, 
+            for build control and management, testing, and in many other ways
+        </p>
+        <br>
+        <p class="text-pink-200 font-normal">
+            - The top 5 programming languge in 2020
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn3" 
+    onclick="read_more_less3()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+
+<div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        Wireshark (Network Security) </br>
+        <span id="dots4"></span><span id="more4">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            What is Wireshark and Why we use it?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            Its an application we use it to analyze traffic network data in real time and is often the 
+            best tool for troubleshooting issues on your network
+        </p>
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            We can use Wireshark for Malware Traffic Analyze in simple steps:
+        </p>
+        <p class="text-purple-300 font-semibold">
+            1- Open the Malware file in Wireshark <br>
+            2- Analyze the data by filtter the file such as: ip addr 10.20.10.20
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn4" 
+    onclick="read_more_less4()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+
+<div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        Active Directory (Incident Response, Network Security) </br>
+        <span id="dots5"></span><span id="more5">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            What is Active Directory and Why we use it?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            Use Active Directory when you have many users, computers and you want to manage there access, profiles
+            data and each user to which network belong to
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn5" 
+    onclick="read_more_less5()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+
+<div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        Autopsy (Digital Forensics) </br>
+        <span id="dots6"></span><span id="more6">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            What is Autosy? and When we can use it?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            Its an application use it in Digital Forensics, when digital crimes happened. Use Autopsy to 
+            investigate and collect data
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn6" 
+    onclick="read_more_less6()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+
+<div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        Splunk (SIEMs) </br>
+        <span id="dots7"></span><span id="more7">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            Splunk Enterprise
+        </p>
+        <p class="text-purple-300 font-semibold">
+            Splunk is software for searching, monitoring, and analyzing big data as web interface. Splunk Enterprise
+            takes in data from websites, applications, sensors, devices, and so on
+        </p>
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            Splunk UF
+        </p>
+        <p class="text-purple-300 font-semibold">
+            UF (Universal Forwarder), automatically send data files of any sort to the Splunk indexer
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn7" 
+    onclick="read_more_less7()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+
+<div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        Burp Suite </br>
+        <span id="dots8"></span><span id="more8">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            What is Burp Suite?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            Is one of the most popular penetration testing and vulnerability finder tools.
+            Advanced set of tools for testing web security
+        </p>
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            Used for what?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            To make sure the web applications are secure
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn8" 
+    onclick="read_more_less8()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+
+<div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        DVWA </br>
+        <span id="dots9"></span><span id="more9">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            What is DVWA ?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            DVWA is (Damn Vulnerable Web Application), is a PHP/MySQL web application that is damn 
+            vulnerable. Its main goals are to be an aid for security professionals to test their skills 
+            and tools in a legal environment, help web developers better understand the processes of 
+            securing web applications
+        </p>
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            Why we use it?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            To learn how to keep our websites save from SQL or PHP injections.
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn9" 
+    onclick="read_more_less9()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+
+<div class="container w-full sm:w-1/2 lg:w-1/2 pl-8">
+    <div class="w-4/3 bg-purple-800 p-3 rounded-md ml-10 mr-10 border-t-4 hover:shadow duration-700">
+    <h1 class="font-bold text-indigo-100">
+        Kali Linux </br>
+        <span id="dots10"></span><span id="more10">
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            Does Kali Linux and Linux are the same?
+        </p>
+        <p class="text-purple-300 font-semibold">
+            Kali linux is one of Linux distributions 
+        </p>
+        <br>
+        <p class="text-indigo-300 font-semibold">
+            Used for :
+        </p>
+        <p class="text-purple-300 font-semibold">
+            Designed for digital forensics and penetration testing. Can work in Virtual environment
+        </p>
+        <br>
+    </span>
+    <a class="text-pink-300 hover:text-pink-500 font-light text-sm btn btn-success" id="mybtn10" 
+    onclick="read_more_less10()">
+        read more >>
+    </a>
+</h1>
+</div></div>
+
+</body>
+</html>
+
+<script>
+    function read_more_less1(){
+        var dots1 = document.getElementById('dots1');
+        var moretext1 = document.getElementById('more1');
+        var mybtn1 = document.getElementById('mybtn1');
+
+        if(dots1.style.display === 'none'){
+            dots1.style.display = 'inline';
+            moretext1.style.display = 'none';
+            mybtn1.innerHTML = "read more >>";
+        } else {
+            dots1.style.display = 'none';
+            moretext1.style.display = 'inline';
+            mybtn1.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less2(){
+        var dots2 = document.getElementById('dots2');
+        var moretext2 = document.getElementById('more2');
+        var mybtn2 = document.getElementById('mybtn2');
+
+        if(dots2.style.display === 'none'){
+            dots2.style.display = 'inline';
+            moretext2.style.display = 'none';
+            mybtn2.innerHTML = "read more >>";
+        } else{
+            dots2.style.display = 'none';
+            moretext2.style.display = 'inline';
+            mybtn2.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less3(){
+        var dots3 = document.getElementById('dots3');
+        var moretext3 = document.getElementById('more3');
+        var mybtn3 = document.getElementById('mybtn3');
+
+        if(dots3.style.display === 'none'){
+            dots3.style.display = 'inline';
+            moretext3.style.display = 'none';
+            mybtn3.innerHTML = "read more >>";
+        } else{
+            dots3.style.display = 'none';
+            moretext3.style.display = 'inline';
+            mybtn3.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less4(){
+        var dots4 = document.getElementById('dots4');
+        var moretext4 = document.getElementById('more4');
+        var mybtn4 = document.getElementById('mybtn4');
+
+        if(dots4.style.display === 'none'){
+            dots4.style.display = 'inline';
+            moretext4.style.display = 'none';
+            mybtn4.innerHTML = "read more >>";
+        } else{
+            dots4.style.display = 'none';
+            moretext4.style.display = 'inline';
+            mybtn4.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less5(){
+        var dots5 = document.getElementById('dots5');
+        var moretext5 = document.getElementById('more5');
+        var mybtn5 = document.getElementById('mybtn5');
+
+        if(dots5.style.display === 'none'){
+            dots5.style.display = 'inline';
+            moretext5.style.display = 'none';
+            mybtn5.innerHTML = "read more >>";
+        } else{
+            dots5.style.display = 'none';
+            moretext5.style.display = 'inline';
+            mybtn5.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less6(){
+        var dots6 = document.getElementById('dots6');
+        var moretext6 = document.getElementById('more6');
+        var mybtn6 = document.getElementById('mybtn6');
+
+        if(dots6.style.display === 'none'){
+            dots6.style.display = 'inline';
+            moretext6.style.display = 'none';
+            mybtn6.innerHTML = "read more >>";
+        } else{
+            dots6.style.display = 'none';
+            moretext6.style.display = 'inline';
+            mybtn6.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less7(){
+        var dots7 = document.getElementById('dots7');
+        var moretext7 = document.getElementById('more7');
+        var mybtn7 = document.getElementById('mybtn7');
+
+        if(dots7.style.display === 'none'){
+            dots7.style.display = 'inline';
+            moretext7.style.display = 'none';
+            mybtn7.innerHTML = "read more >>";
+        } else{
+            dots7.style.display = 'none';
+            moretext7.style.display = 'inline';
+            mybtn7.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less8(){
+        var dots8 = document.getElementById('dots8');
+        var moretext8 = document.getElementById('more8');
+        var mybtn8 = document.getElementById('mybtn8');
+
+        if(dots8.style.display === 'none'){
+            dots8.style.display = 'inline';
+            moretext8.style.display = 'none';
+            mybtn8.innerHTML = "read more >>";
+        } else{
+            dots8.style.display = 'none';
+            moretext8.style.display = 'inline';
+            mybtn8.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less9(){
+        var dots9 = document.getElementById('dots9');
+        var moretext9 = document.getElementById('more9');
+        var mybtn9 = document.getElementById('mybtn9');
+
+        if(dots9.style.display === 'none'){
+            dots9.style.display = 'inline';
+            moretext9.style.display = 'none';
+            mybtn9.innerHTML = "read more >>";
+        } else{
+            dots9.style.display = 'none';
+            moretext9.style.display = 'inline';
+            mybtn9.innerHTML = "<< read less";
+        }
+    }
+
+    function read_more_less10(){
+        var dots10 = document.getElementById('dots10');
+        var moretext10 = document.getElementById('more10');
+        var mybtn10 = document.getElementById('mybtn10');
+
+        if(dots10.style.display === 'none'){
+            dots10.style.display = 'inline';
+            moretext10.style.display = 'none';
+            mybtn10.innerHTML = "read more >>";
+        } else{
+            dots10.style.display = 'none';
+            moretext10.style.display = 'inline';
+            mybtn10.innerHTML = "<< read less";
+        }
+    }    
+</script>
